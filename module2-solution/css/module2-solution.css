@@ -19,7 +19,8 @@ section{
  }
 
 #Title1{
-	margin-right: 10px;
+	position: relative;
+	right:10px;
 	float: right;
 	text-align: center;
 	border: 1px solid black;
@@ -33,9 +34,9 @@ section{
 }
 
 #Title2{
-	margin-right: 10px;
+	position: relative;
+	right:10px;
 	float: right;
-	clear: left;
 	text-align: center;
 	border: 1px solid black;
 	width: 100px;
@@ -48,9 +49,9 @@ section{
 }
 
 #Title3{
-	margin-right: 10px;
+	position: relative;
+	right:10px;
 	float: right;
-	clear: left;
 	text-align: center;
 	border: 1px solid black;
 	width: 100px;
