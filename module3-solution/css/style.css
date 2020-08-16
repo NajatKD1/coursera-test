@@ -11,6 +11,7 @@ body{
   border-radius: 0;
   border: 0;
   color: white;
+
 }
 
 div.container{
@@ -65,8 +66,14 @@ div#all.container{
 }
 .navbar-brand {
   padding-top: 25px;
+  float: left;
 }
 
+.navbar-toggle {
+  position: relative;
+  float: right;
+
+}
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
@@ -142,7 +149,7 @@ section{
 	margin: 10px 10px 10px 10px;
 	border: 1px solid black;
   	background-color: #ececec;
-  	height: 800px;
+  	height: 1200px;
   	padding: 35px;
   	font-family: Helvetica;
   	color: black;	
