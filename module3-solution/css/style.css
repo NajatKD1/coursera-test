@@ -2,7 +2,56 @@ body{
   background-color: white;
 }
 
+.container {
+    margin: auto;
+    padding: auto;
+}
+
+.navbar{
+    border-radius: 0px;
+    background-color: black;
+}
+.navbar-brand {
+    
+    color: white;
+    margin-left: 0;
+}
+
+.navbar-brand:hover {
+        color: white;
+    }
+
+.navbar-nav {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.navbar-toggle {
+    border: 1px solid white;
+    margin-right: 25px;
+}
+.icon-bar {
+    background-color: white;
+}
+.menu-item {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid white;
+    color: white;
+    display: block;
+}
+ .menu-item:hover {
+        background-color: #ececec;
+        color: black;
+    }
+    .row {
+    margin: 20px;
+}
+
 /* Header **/
+/*
 .navbar .container{
    margin-left: 0;
 }
@@ -76,6 +125,7 @@ div#all.container{
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
+*/
   a{
     background-color:black;
   }
